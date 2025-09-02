@@ -14,7 +14,7 @@ Development > Routing Analysis > History Management
 ```
 project_name (text) - Project identifier
 code_location (text) - Repository URL or file paths
-foundation_scan_file (text) - Path to coderef-scan-results.md (required)
+foundation_scan_file (text) - Path to coderef-foundation-scan-results.md (required)
 maintenance_mode (boolean) - Update existing documentation vs create new
 existing_documentation_file (text) - Path to existing routing scan results (if maintenance_mode=true)
 update_strategy (text) - Full-rewrite/Selective-updates/Append-changes
@@ -340,7 +340,7 @@ Output format: {output_format}
 {
   "project_name": "[auto-detect from package.json]",
   "code_location": "[provide repository/files]",
-  "foundation_scan_file": "./coderef-scan-results.md",
+  "foundation_scan_file": "./coderef-foundation-scan-results.md",
   "maintenance_mode": false,
   "existing_documentation_file": "./coderef-routing-scan-results.md",
   "update_strategy": "Selective-updates",

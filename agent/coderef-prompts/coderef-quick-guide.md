@@ -7,7 +7,7 @@ Comprehensive codebase documentation system that creates detailed reference mate
 
 ### 1. **Start Here - Foundation Scan**
 ```
-coderef-scan-prompt.md → coderef-scan-results.md
+coderef-foundation-scan-prompt.md → coderef-foundation-scan-results.md
 ```
 **Purpose:** Complete codebase overview and agent onboarding  
 **Time:** 20+ minutes  
@@ -40,12 +40,12 @@ coderef-maintenance-scan-prompt.md → coderef-maintenance-scan-results.md
 ## 📋 Typical Workflows
 
 ### **New Project (Initial Documentation)**
-1. `coderef-scan-prompt.md` (creates foundation context)
+1. `coderef-foundation-scan-prompt.md` (creates foundation context)
 2. Run 3-5 most relevant specialized scans (each reads foundation)
 3. Set up maintenance schedule
 
 ### **Existing Project (Assessment & Updates)**
-1. `coderef-scan-prompt.md` (foundation overview)
+1. `coderef-foundation-scan-prompt.md` (foundation overview)
 2. `coderef-maintenance-scan-prompt.md` (identifies what needs updating)
 3. Run recommended specialized scans in **maintenance mode**
 4. Specialized scans **update existing** `*-scan-results.md` files
@@ -105,7 +105,7 @@ Most scans have these common options:
 ## 📁 Output Files
 
 ### **Generated Documentation:**
-- `coderef-scan-results.md` - Complete project overview
+- `coderef-foundation-scan-results.md` - Complete project overview
 - `coderef-*-scan-results.md` - Specialized area documentation
 - `coderef-maintenance-scan-results.md` - Update recommendations
 
@@ -142,7 +142,7 @@ Full foundation rescan for comprehensive update
 
 ## 💡 Pro Tips
 
-1. **Start with foundation scan** - always run `coderef-scan-prompt.md` first
+1. **Start with foundation scan** - always run `coderef-foundation-scan-prompt.md` first
 2. **Batch specialized scans** - run multiple relevant scans together
 3. **Read maintenance recommendations** - tells you exactly what to update
 4. **Use for onboarding** - have agents read documentation before starting work

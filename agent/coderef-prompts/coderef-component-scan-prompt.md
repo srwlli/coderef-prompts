@@ -14,7 +14,7 @@ Development > Component Analysis > Usage Patterns
 ```
 project_name (text) - Project identifier
 code_location (text) - Repository URL or file paths
-foundation_scan_file (text) - Path to coderef-scan-results.md (required)
+foundation_scan_file (text) - Path to coderef-foundation-scan-results.md (required)
 maintenance_mode (boolean) - Update existing documentation vs create new
 existing_documentation_file (text) - Path to existing component scan results (if maintenance_mode=true)
 update_strategy (text) - Full-rewrite/Selective-updates/Append-changes

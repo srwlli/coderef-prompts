@@ -93,3 +93,19 @@ git add .
 git commit -m "wip: header improvements"
 git push origin main
 ```
+
+Git Set Up
+
+echo "# coderef-prompts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/srwlli/coderef-prompts.git
+git push -u origin main
+
+Git Update
+
+git remote add origin https://github.com/srwlli/coderef-prompts.git
+git branch -M main
+git push -u origin main
